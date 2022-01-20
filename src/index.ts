@@ -19,9 +19,9 @@ class Block {
   }
 }
 
-const genesisBlock:Block = new Block(0, "202020202020", "", "Hello", 123456);
+const genesisBlock: Block = new Block(0, "202020202020", "", "Hello", 123456);
 
-let blockchain: [Block] =[genesisBlock];
+let blockchain: [Block] = [genesisBlock];
 
 console.log(blockchain);
 // interface Human {
